@@ -26,7 +26,17 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
+            <span>H</span>
+            <span>i</span>
+            <span>,</span> {''}
+            <span>m</span>
+            <span>y</span> {''}
+            <span>n</span>
+            <span>a</span>
+            <span>m</span>
+            <span>e</span> {''}
+            <span>i</span>
+            <span>s</span> {''}
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
             {subtitle || "I'm the Unknown Developer."}
