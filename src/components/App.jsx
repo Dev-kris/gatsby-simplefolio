@@ -4,6 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import Wave from './Wave';
 
 import { PortfolioProvider } from '../context/context';
 
