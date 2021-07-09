@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'profile.jpeg',
   paragraphOne:
     'I was the boy who would take everything apart to find out how it works, or to make something new.Whether is was giving life to a NEC laptop or finding out how to remove the governor on a gokart, I was always driven by this need to explore and create.',
   paragraphTwo:
