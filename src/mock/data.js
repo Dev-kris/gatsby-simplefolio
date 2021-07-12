@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Build a social networking clone.',
     info: 'This is a fullstack project leveraging Next.js, Express, TypeORM, TypeScript, and MySQL',
     info2:
-      'A company wanted to host a similar to Reddit to encourage casual communication and improve connectedness. I built this app to be used internally on their servers, using their existing SQL infrastructure.',
+      'A company wanted to host an app similar to Reddit to encourage casual communication and improve connectedness. I built this app to be used internally on their servers, using their existing SQL infrastructure.',
     url: 'https://github.com/Dev-kris/social_app',
     repo: 'https://github.com/Dev-kris/social_app', // if no repo, the button will not show up
   },
@@ -74,7 +74,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/kristopher-long-a30201180/',
+      url: 'https://www.linkedin.com/in/kristopher-long/',
     },
     {
       id: nanoid(),
