@@ -15,3 +15,18 @@ Welcome to my online portfolio. You can access the live version at  **[My Homepa
 ## Technologies used
 React-Gatsby
 
+
+### To Try
+
+Clone repo
+
+Navigate to cloned directory.
+
+```
+npm install
+  
+npm start
+
+``` 
+
+navigate to [localhost:8000](http://localhost:8000)
