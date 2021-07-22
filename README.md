@@ -6,7 +6,7 @@ Welcome to my online portfolio. You can access the live version at  **[My Homepa
 
 
 <p align="center">
-  <img src="https://github.com/Dev-kris/portfolio/blob/master/demo/demo.png" width="350" title="Kris's portfolio">
+  <img src="https://github.com/Dev-kris/portfolio/blob/master/demo/demo.png" width="650" title="Kris's portfolio">
   
 </p>
 
