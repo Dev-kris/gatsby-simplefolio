@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import { Link } from 'react-scroll';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
 import { githubButtons } from '../../mock/data';
+// import ResumeButton from '../ResumeButton/ResumeButton';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -38,21 +39,24 @@ const Contact = () => {
       <br />
       <footer className="pt-5">
         <Container>
-          <span className="back-to-top"></span>
+          <span className="back-to-top" />
           <div className="social-links">
             {networks &&
               networks.map((network) => {
                 const { id, name, url } = network;
                 return (
-                  <a
-                    key={id}
-                    href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    aria-label={name}
-                  >
-                    <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                  </a>
+                  <>
+                    <a
+                      key={id}
+                      href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      aria-label={name}
+                    >
+                      <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                    </a>
+                    {/* <ResumeButton></ResumeButton> */}
+                  </>
                 );
               })}
           </div>
