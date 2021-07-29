@@ -24,7 +24,7 @@ export const aboutData = {
     "  When I faced a problem I couldn't solve, I found someone to teach me to solve it or I created a new solution.",
   paragraphThree:
     ' This perseverance has come with me through every stage of my life in every aspect.   This combination is also the most valuable thing I can offer; genuine curiosity supported by perseverance.',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://github.com/Dev-kris/portfolio/raw/master/demo/Long_Kristopher_CV_2021_v2.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
